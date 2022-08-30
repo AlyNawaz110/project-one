@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+.header{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 25%;
+    height: 100px;
+}
+.logo h1{
+    text-align: center;
+    padding-top: 27px;
+}
+.logo h1 span{
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 11px 20px;
+}
+.navbar{
+    width: 60%;
+    height: 100px;
+}
+.navbar nav li{
+    list-style: none;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-left: 40px; 
+    justify-content: space-between;
+    cursor: pointer;
+}
+.navbar nav{
+    display: flex;
+    float: right;
+    padding-right: 30px;
+}
+.navbar nav li:hover{
+    color: gray;
+    /* border-bottom: 1px solid red; */
+    font-size: 30px;
+}
+#md{
+width: 90%;
+margin: 0 auto;
+height: 100vh;
+font-size: 20px;
+text-align: center;
+display: flex;
+}
+#md .one{
+    width: 50%;
+    height: 100vh;
+} 
+
+.one h1{
+    margin-top: 20%;
+}
+
+
+#md .one button{
+    background-color: rgb(43, 43, 216);
+    font-size: larger;
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+}
+#md .two{
+    width: 50%;
+    height: 100vh;
+    background-image: url(/Capture.PNG);
+    background-repeat: no-repeat;
+}
